@@ -27,6 +27,11 @@ for indice, palabra in enumerate(palabrasEspanol):
         print(f"La traduccion de {palabraUsuario} es {palabrasIngles[indice]}")
         seEncontroLaPalabra = True
 
+for indice, palabra in enumerate(palabrasIngles):
+    if (palabraUsuario==palabra and seEncontroLaPalabra==False):
+        print(f"La traduccion de {palabraUsuario} es {palabrasEspanol[indice]}")
+        seEncontroLaPalabra = True
+
 if seEncontroLaPalabra==False:
     print("Esta madre no sirvio de nada.")
 

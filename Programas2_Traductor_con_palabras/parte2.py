@@ -17,11 +17,11 @@ frame.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
 texto_entrada = tk.Text(frame, height=10, width=50)
 texto_entrada.grid(row=0, column=0, columnspan=2, pady=10)
 
-idioma_origen = ttk.Combobox(frame, values=["Español", "Inglés", "Francés", "Alemán"])
+idioma_origen = ttk.Combobox(frame, values=["Español", "Inglés"])
 idioma_origen.grid(row=1, column=0, sticky=tk.W, padx=5)
 idioma_origen.set("Español")
 
-idioma_destino = ttk.Combobox(frame, values=["Inglés", "Español", "Francés", "Alemán"])
+idioma_destino = ttk.Combobox(frame, values=["Inglés", "Español"])
 idioma_destino.grid(row=1, column=1, sticky=tk.W, padx=5)
 idioma_destino.set("Inglés")
 
