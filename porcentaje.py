@@ -16,12 +16,12 @@ def xnor_difuso(imagen1, imagen2):
 
 # Carga la imagen de prueba
 prueba=int(input("Dame la imagen de prueba "))
-imagen_prueba = cargar_imagen(f'C:\\Materias\\Programas_Lenguaje_Horacio\\Programas1_Perceptron\\NUMEROS\\{prueba}.bmp')
+imagen_prueba = cargar_imagen(f'C:\\Materias\\Programas_Lenguaje_Horacio\\NUMEROS\\{prueba}.bmp')
 
 # Cargar y comparar las imágenes de referencia
 resultados_similitud = {}
 for i in range(1, 101):
-    imagen_referencia = cargar_imagen(f'C:\\Materias\\Programas_Lenguaje_Horacio\\Programas1_Perceptron\\NUMEROS\\{i}.bmp')
+    imagen_referencia = cargar_imagen(f'C:\\Materias\\Programas_Lenguaje_Horacio\\NUMEROS\\{i}.bmp')
     if imagen_referencia.size != imagen_prueba.size:
         imagen_referencia = imagen_referencia.resize(imagen_prueba.size)
     similitud = xnor_difuso(imagen_prueba, imagen_referencia)

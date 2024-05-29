@@ -1,8 +1,8 @@
 from PIL import Image
 
 # Direcciones de las imagenes a trabajar
-imagen_del_8_original = "bmp_imagenes/1.bmp"
-imagen_del_8_entrada = "bmp_imagenes/1.bmp"
+imagen_del_numero_original = "C:\\Materias\\Programas_Lenguaje_Horacio\\Programas1_Perceptron\\NUMEROS\\1.bmp"
+imagen_del_numero_entrada = "C:\\Materias\\Programas_Lenguaje_Horacio\\Programas1_Perceptron\\NUMEROS\\1.bmp"
 
 # Funcion para comparar las imagenes
 def comparar_imagenes(Imagen_Original, Imagen_Entrada):
@@ -34,4 +34,4 @@ def comparar_imagenes(Imagen_Original, Imagen_Entrada):
     print("La imagen ingresada corresponde al valor del numero esperado por el programa")
 
 # Implementacion de la funcion operativa
-comparar_imagenes(imagen_del_8_original, imagen_del_8_entrada)
+comparar_imagenes(imagen_del_numero_original, imagen_del_numero_entrada)

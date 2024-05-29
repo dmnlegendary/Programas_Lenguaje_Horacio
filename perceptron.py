@@ -38,7 +38,7 @@ def predecir_perceptron(imagen, pesos, umbral):
 # Función principal
 def main():
     # Ruta al directorio que contiene las imágenes BMP
-    directorio_imagenes = 'C:\\Materias\\Programas_Lenguaje_Horacio\\Programas1_Perceptron\\NUMEROS\\'
+    directorio_imagenes = 'C:\\Users\\LuisValle\\Desktop\\Lenguaje\\NUMEROS\\'
 
     # Cargar las imágenes de entrenamiento comenzando desde 1
     imagenes_entrenamiento = [cargar_imagen(f'{directorio_imagenes}{i}.bmp') for i in range(1, 101)]
