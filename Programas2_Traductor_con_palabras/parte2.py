@@ -13,11 +13,17 @@ Se solicita un programa divido en tres partes:
 
 import tkinter # Libreria de GUI
 
-# Apertura e inicializacion de ventana
+# Apertura e inicializacion de ventana principal
 ventana = tkinter.Tk()
 ventana.geometry("600x400")
-ventana.title("Tradcutor Espanol-Ingles")
+ventana.title("Traductor Espanol-Ingles")
 ventana.configure(background="#35DB7A")
+
+# Ventana para añadir nuevas traducciones
+ventanaParaTraducciones = tkinter.Tk()
+ventanaParaTraducciones.geometry("300x180")
+ventanaParaTraducciones.title("Agregar palabras")
+ventanaParaTraducciones.configure(background="#B9DBE4")
 
 # Control del sistema 
 palabrasEspanol = ["carro", "mesa", "tiburon", "negro", "blanco", "barco", "tarro", "barro"]
