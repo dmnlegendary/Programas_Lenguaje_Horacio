@@ -5,12 +5,13 @@ def cargar_imagen(ruta):
     return Image.open(ruta).convert('L')
 
 
-def xnor_difuso(imagen1, imagen2):
+def obtencionPorcentajes(imagen1, imagen2) -> int:
+    similitud = 0
     for x in range(imagen1.width):
         for y in range(imagen1.height):
-            if imagen1.getpixel((x, y)) != imagen2.getpixel((x, y)):
-                return 0  # Devuelve 0 si hay al menos un píxel diferente
-    return 100  # Devuelve 100 si todas los píxeles son iguales
+            if imagen1.getpixel((x, y)) == imagen2.getpixel((x, y)):
+                similitud += 1
+    return (similitud/400)*100  # Devuelve 100 si todas los píxeles son iguales
 
 # C:\Materias\Programas_Lenguaje_Horacio
 
@@ -24,7 +25,7 @@ for i in range(1, 101):
     imagen_referencia = cargar_imagen(f'C:\\Materias\\Programas_Lenguaje_Horacio\\Programas1_Perceptron\\NUMEROS\\{i}.bmp')
     if imagen_referencia.size != imagen_prueba.size:
         imagen_referencia = imagen_referencia.resize(imagen_prueba.size)
-    similitud = xnor_difuso(imagen_prueba, imagen_referencia)
+    similitud = obtencionPorcentajes(imagen_prueba, imagen_referencia)
     resultados_similitud[i] = similitud
 
 # Determinar cuál imagen de referencia es más similar
@@ -56,3 +57,9 @@ else:
     elif 91 <= numero_mas_parecido <= 100:
         resultado_final = 9
     print(f"El número es: {resultado_final}")
+
+print(resultados_similitud)
+
+clave_segundo_mayor = sorted(resultados_similitud, key=resultados_similitud.get, reverse=True)[1]
+valor_asociado = resultados_similitud[clave_segundo_mayor]
+print(f'El indice {clave_segundo_mayor} tiene la mayor similitud con {valor_asociado}')
