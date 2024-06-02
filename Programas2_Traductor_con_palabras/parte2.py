@@ -23,12 +23,6 @@ ventana.title("Traductor Espanol-Ingles")
 ventana.title("Traductor Espanol-Ingles")
 ventana.configure(background="#35DB7A")
 
-# Ventana para agregar texto
-ventanaDeCorreccion = tkinter.Tk()
-ventana.geometry("600x400")
-ventanaDeCorreccion.title("Desea agregar traduccion?")
-ventanaDeCorreccion.configure(background="#5DE2E7")
-
 # Control del sistema 
 palabrasEspanol = ["carro", "mesa", "tiburon", "negro", "blanco", "barco", "tarro", "barro"]
 palabrasIngles = ["car", "table", "shark", "black", "white", "ship", "jar", "mud"]
