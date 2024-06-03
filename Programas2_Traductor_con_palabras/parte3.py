@@ -14,6 +14,7 @@ Se solicita un programa divido en tres partes:
 import tkinter # Libreria de GUI
 from tkinter import messagebox
 import tkinter.simpledialog
+import re
 
 # Apertura e inicializacion de ventana principal
 ventana = tkinter.Tk()
@@ -22,9 +23,14 @@ ventana.title("Traductor Espanol-Ingles")
 ventana.configure(background="#35DB7A")
 
 # Control del sistema 
-palabrasEspanol = ["carro", "mesa", "tiburon", "negro", "blanco", "barco", "tarro", "barro"]
-palabrasIngles = ["car", "table", "shark", "black", "white", "ship", "jar", "mud"]
-palabrasProbables = {}
+palabrasEspanol = ["carro", "mesa", "tiburon", "negro", "blanco", "barco", "tarro", "barro", "comer", "cuando"]
+palabrasIngles = ["car", "table", "shark", "black", "white", "ship", "jar", "mud", "eat", "when"]
+correcciones = {
+    "karro": "carro",
+    "komer": "comer",
+    "kuando": "cuando",
+    "meza" : "table"
+}
 
 '''Funciones para el desarrollo del programa'''
 
@@ -44,6 +50,21 @@ def buscarTraduccion(palabra) -> str:
     iniciarVentanaDeAgregarTraduccion()
     return "NO SE ENCONTRO TRADUCCION."
 
+# Funcion para solicitar correccion de una palabra
+def iniciarVentanaDeCorreccion() -> None:
+    ventanaDeCorreccion = tkinter.Toplevel(ventana)
+    ventanaDeCorreccion.geometry("400x250")
+    ventanaDeCorreccion.title("Corregir Palabra")
+    ventanaDeCorreccion.configure(background="#B9DBE4")
+    print("Esta cosa jala")
+
+# Funcione que corrige la palabra
+def reemplazar_palabra(textoDeEntrada, diccionarioDeCorrecciones):
+    pattern = re.compile(r'\b(' + '|'.join(re.escape(key) for key in diccionarioDeCorrecciones.keys()) + r')\b')
+    result = pattern.sub(lambda x: diccionarioDeCorrecciones[x.group()], textoDeEntrada)
+    return result
+
+# Funcion para activar ventana para agregar traducciones
 def iniciarVentanaDeAgregarTraduccion() -> None:
     ventanaParaTraducciones = tkinter.Toplevel(ventana)
     ventanaParaTraducciones.geometry("300x180")
