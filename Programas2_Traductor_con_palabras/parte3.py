@@ -13,31 +13,35 @@ Se solicita un programa divido en tres partes:
 
 # Librerias de GUI
 import tkinter
-from tkinter import messagebox 
+from tkinter import messagebox
 import tkinter.simpledialog
+import Levenshtein as lev
 
 # Apertura e inicializacion de ventana principal
 ventana = tkinter.Tk()
 ventana.geometry("600x400")
-ventana.title("Traductor Espanol-Ingles")
 ventana.title("Traductor Espanol-Ingles")
 ventana.configure(background="#35DB7A")
 
 # Control del sistema 
 palabrasEspanol = ["carro", "mesa", "tiburon", "negro", "blanco", "barco", "tarro", "barro"]
 palabrasIngles = ["car", "table", "shark", "black", "white", "ship", "jar", "mud"]
-correcciones = [
-    ["karro", "carro", 12],
-    ["karro", "barro", 8],
-    ["karro", "tarro", 4],
-    ["komer", "comer", 1],
-    ["kuando", "cuando", 2],
-    ["meza", "mesa", 7],
-    ["kar", "car", 6],
-    ["tavle", "table", 3]
-]
 
-'''Funciones para el desarrollo del programa'''
+'''
+*****************************************************************************************************
+*************************   Funciones para el desarrollo del programa   *****************************
+*****************************************************************************************************
+'''
+# Funcion que asegura que solo se trabaje con palabras
+def encontrarCoincidencia() -> None:
+    palabraIngresada = entradaDeTexto.get()
+    palabraIngresada = palabraIngresada.lower()
+    if (palabraIngresada.find(' ') != -1):
+        print("Ha sucedido un error: Ingreso mas de una palabra!")
+        exit(1)
+    else:
+        palabraTraducida = buscarTraduccion(palabraIngresada)
+        etiquetaDeTraduccion["text"] = palabraTraducida
 
 # Funcion que busca la palabra en el idioma objetivo
 def buscarTraduccion(palabra) -> str:
@@ -55,6 +59,12 @@ def buscarTraduccion(palabra) -> str:
     iniciarVentanaDeAgregarTraduccion()
     return "NO SE ENCONTRO TRADUCCION."
 
+'''
+*****************************************************************************************************
+*****************************   Seccion para creacion de ventanas   *********************************
+*****************************************************************************************************
+'''
+# Funcion que inicia la ventana para agregar traduccion a los arreglos
 def iniciarVentanaDeAgregarTraduccion() -> None:
     ventanaParaTraducciones = tkinter.Toplevel(ventana)
     ventanaParaTraducciones.geometry("300x180")
@@ -77,6 +87,7 @@ def iniciarVentanaDeAgregarTraduccion() -> None:
     botonConfirmacion = tkinter.Button(ventanaParaTraducciones, text="Actualizar datos", font=("Arial", 12, "bold"), bg="#27B79A", command=lambda: agregarInformacion(ventanaParaTraducciones, entradaPalabraEspanol, entradaPalabraIngles))
     botonConfirmacion.pack(side=tkinter.BOTTOM)
     
+# Funcion que inicia la ventana para las correcciones
 def iniciarVentanaDeCorreccion(correcto) -> None:
     ventanaParaCorrecciones = tkinter.Toplevel(ventana)
     ventanaParaCorrecciones.geometry("300x180")
@@ -93,17 +104,11 @@ def iniciarVentanaDeCorreccion(correcto) -> None:
     botonNegacion = tkinter.Button(ventanaParaCorrecciones, text="NO", command= print(f'Se cancelo la correccion!!'))
     botonNegacion.pack()
 
-# Funcion que asegura que solo se trabaje con palabras
-def encontrarCoincidencia() -> None:
-    palabraIngresada = entradaDeTexto.get()
-    palabraIngresada = palabraIngresada.lower()
-    if (palabraIngresada.find(' ') != -1):
-        print("Ha sucedido un error: Ingreso mas de una palabra!")
-        exit(1)
-    else:
-        palabraTraducida = buscarTraduccion(palabraIngresada)
-        etiquetaDeTraduccion["text"] = palabraTraducida
-
+'''
+*****************************************************************************************************
+******************************   Seccion para logica de ventanas   **********************************
+*****************************************************************************************************
+'''
 # Funcion que permitira modificar las listas de palabras espanol-ingles
 def agregarInformacion(ventanaSecundaria, palabrasEnEspanol, palabrasEnIngles) -> None:
     control1, control2 = palabrasEnEspanol.get(), palabrasEnIngles.get()
@@ -121,6 +126,11 @@ def cerrarVentanaPrincipal() -> None:
     if messagebox.askokcancel("Salir", "¿Seguro que quieres salir?"):
         ventana.destroy()
 
+'''
+*****************************************************************************************************
+********************************   Edicion de ventana principal   ***********************************
+*****************************************************************************************************
+'''
 # Boton y etiquetas para para realizar la traducción
 etiquetaTitulo = tkinter.Label(ventana, text="Bienvenido al traductor de idiomas!!!", bg="#850903", padx=30, pady=10, fg="#FFFEFE")
 etiquetaTitulo.pack(side=tkinter.TOP, expand=True)

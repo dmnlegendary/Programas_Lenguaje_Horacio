@@ -5,30 +5,20 @@ import Levenshtein as lev
 # Lista de palabras correctas (puedes añadir más palabras a esta lista)
 correct_words = ["hola", "mundo", "programación", "python", "corrección", "ejemplo", "palabra"]
 
-class SpellCorrector:
-    def __init__(self, correct_words):
-        self.correct_words = correct_words
-        self.suggestions = []
-        self.current_index = 0
+# Variables globales para almacenar las sugerencias y el índice actual
+suggestions = []
+current_index = 0
 
-    def get_suggestions(self, word):
-        # Ordena las palabras correctas por su distancia de Levenshtein a la palabra ingresada
-        self.suggestions = sorted(self.correct_words, key=lambda w: lev.distance(word, w))
-        self.current_index = 0
-        return self.suggestions
-
-    def next_suggestion(self):
-        # Avanza al siguiente índice de sugerencias
-        if self.suggestions:
-            self.current_index = (self.current_index + 1) % len(self.suggestions)
-            return self.suggestions[self.current_index]
-        return None
-
-spell_corrector = SpellCorrector(correct_words)
+def get_suggestions(word):
+    global suggestions, current_index
+    # Ordena las palabras correctas por su distancia de Levenshtein a la palabra ingresada
+    suggestions = sorted(correct_words, key=lambda w: lev.distance(word, w))
+    current_index = 0
+    return suggestions
 
 def correct_word():
     input_word = entry.get()
-    suggestions = spell_corrector.get_suggestions(input_word)
+    suggestions = get_suggestions(input_word)
     if suggestions:
         result_label.config(text=f"Quizás quisiste decir: {suggestions[0]}")
         if input_word != suggestions[0]:
@@ -37,8 +27,10 @@ def correct_word():
         result_label.config(text="No se encontraron sugerencias.")
 
 def next_suggestion():
-    next_word = spell_corrector.next_suggestion()
-    if next_word:
+    global current_index
+    if suggestions:
+        current_index = (current_index + 1) % len(suggestions)
+        next_word = suggestions[current_index]
         result_label.config(text=f"Quizás quisiste decir: {next_word}")
         messagebox.showinfo("Corrección", f"Siguiente sugerencia: {next_word}")
     else:
