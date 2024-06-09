@@ -28,13 +28,13 @@ palabrasEspanol = ["carro", "mesa", "tiburon", "negro", "blanco", "barco", "tarr
 palabrasIngles = ["car", "table", "shark", "black", "white", "ship", "jar", "mud"]
 correcciones = [
     ["karro", "carro", 12],
-    ["karro", "barro", 8]
-    ["karro", "tarro", 4]
+    ["karro", "barro", 8],
+    ["karro", "tarro", 4],
     ["komer", "comer", 1],
     ["kuando", "cuando", 2],
     ["meza", "mesa", 7],
     ["kar", "car", 6],
-    ["tavle", "table", 3],
+    ["tavle", "table", 3]
 ]
 
 '''Funciones para el desarrollo del programa'''
@@ -88,9 +88,9 @@ def iniciarVentanaDeCorreccion(correcto) -> None:
     etiquetaPosibleCorreccion = tkinter.Label(ventanaParaCorrecciones, text=correcto, font=("Arial", 12, "bold"))
     etiquetaPosibleCorreccion.pack(side=tkinter.TOP)
     
-    botonAfirmacion = tkinter.Button(ventanaParaCorrecciones, text="SI", command=lambda: correccionExitosa(ventanaParaCorrecciones, correcto))
+    botonAfirmacion = tkinter.Button(ventanaParaCorrecciones, text="SI", command= print(f'Se realizo la correccion'))
     botonAfirmacion.pack()
-    botonNegacion = tkinter.Button(ventanaParaCorrecciones, text="NO", command= lambda: correccionCancelada(ventanaParaCorrecciones))
+    botonNegacion = tkinter.Button(ventanaParaCorrecciones, text="NO", command= print(f'Se cancelo la correccion!!'))
     botonNegacion.pack()
 
 # Funcion que asegura que solo se trabaje con palabras
@@ -115,18 +115,6 @@ def agregarInformacion(ventanaSecundaria, palabrasEnEspanol, palabrasEnIngles) -
         palabrasIngles.append(control2)
         print("Se ha agregado exitosamente la nueva informacion")
         ventanaSecundaria.destroy()
-        
-# Funcion para corregir palabra y cerrar ventana de correccion
-def correccionExitosa(ventanaSecundaria, palabraCorregida) -> str:
-    ventanaSecundaria.destroy()
-    entradaDeTexto.delete(0,tkinter.END)
-    entradaDeTexto.insert(0,palabraCorregida)
-    return palabraCorregida
-
-# Funcion para cerrar ventana de correccion sin corregir palabra
-def correccionCancelada(ventanaSecundaria) -> str:
-    ventanaSecundaria.destroy()
-    return "0"
 
 # Funcion para cerrar ventana principal
 def cerrarVentanaPrincipal() -> None:
