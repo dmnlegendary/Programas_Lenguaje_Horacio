@@ -41,7 +41,7 @@ def buscarTraduccion(palabra) -> str:
             print(f"La traduccion de {palabra} es {palabrasEspanol[indice]}")
             return palabrasEspanol[indice]
 
-    print("Esta madre no sirvio de nada.")
+    print("No se pudo corregir.")
     iniciarVentanaDeAgregarTraduccion()
     return "NO SE ENCONTRO TRADUCCION."
 

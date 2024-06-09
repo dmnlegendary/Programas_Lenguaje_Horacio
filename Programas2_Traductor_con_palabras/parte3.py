@@ -25,38 +25,39 @@ ventana.configure(background="#35DB7A")
 # Control del sistema 
 palabrasEspanol = ["carro", "mesa", "tiburon", "negro", "blanco", "barco", "tarro", "barro", "comer", "cuando"]
 palabrasIngles = ["car", "table", "shark", "black", "white", "ship", "jar", "mud", "eat", "when"]
-correcciones = {
-    "karro": "carro",
-    "komer": "comer",
-    "kuando": "cuando",
-    "meza" : "table"
-}
+correcciones = [
+    ["karro", "carro", 12],
+    ["karro", "barro", 8]
+    ["karro", "tarro", 4]
+    ["komer", "comer", 1],
+    ["kuando", "cuando", 2],
+    ["meza", "mesa", 7],
+    ["kar", "car", 6],
+    ["tavle", "table", 3],
+]
 
 '''Funciones para el desarrollo del programa'''
 
 # Funcion que busca la palabra en el idioma objetivo
 def buscarTraduccion(palabra) -> str:
-    for indice, palabrasArreglo in enumerate(palabrasEspanol):
-        if (palabra==palabrasArreglo):
-            print(f"La traduccion de {palabra} es {palabrasIngles[indice]}")
-            return palabrasIngles[indice]
+    textoCorregido = reemplazar_palabra(palabra, correcciones)
+    if (textoCorregido==palabra):
+        for indice, palabrasArreglo in enumerate(palabrasEspanol):
+            if (palabra==palabrasArreglo):
+                print(f"La traduccion de {palabra} es {palabrasIngles[indice]}")
+                return palabrasIngles[indice]
 
-    for indice, palabrasArreglo in enumerate(palabrasIngles):
-        if (palabra==palabrasArreglo):
-            print(f"La traduccion de {palabra} es {palabrasEspanol[indice]}")
-            return palabrasEspanol[indice]
-
-    print("Esta madre no sirvio de nada.")
-    iniciarVentanaDeAgregarTraduccion()
-    return "NO SE ENCONTRO TRADUCCION."
-
-# Funcion para solicitar correccion de una palabra
-def iniciarVentanaDeCorreccion() -> None:
-    ventanaDeCorreccion = tkinter.Toplevel(ventana)
-    ventanaDeCorreccion.geometry("400x250")
-    ventanaDeCorreccion.title("Corregir Palabra")
-    ventanaDeCorreccion.configure(background="#B9DBE4")
-    print("Esta cosa jala")
+        for indice, palabrasArreglo in enumerate(palabrasIngles):
+            if (palabra==palabrasArreglo):
+                print(f"La traduccion de {palabra} es {palabrasEspanol[indice]}")
+                return palabrasEspanol[indice]
+        
+        print("No se pudo traducir nada")
+        iniciarVentanaDeAgregarTraduccion()
+        return "No se encontro traduccion"
+    else:
+        iniciarVentanaDeCorreccion(palabra)
+        return "Correccion"
 
 # Funcione que corrige la palabra
 def reemplazar_palabra(textoDeEntrada, diccionarioDeCorrecciones):
@@ -86,6 +87,44 @@ def iniciarVentanaDeAgregarTraduccion() -> None:
 
     botonConfirmacion = tkinter.Button(ventanaParaTraducciones, text="Actualizar datos", font=("Arial", 12, "bold"), bg="#27B79A", command=lambda: agregarInformacion(ventanaParaTraducciones, entradaPalabraEspanol, entradaPalabraIngles))
     botonConfirmacion.pack(side=tkinter.BOTTOM)
+    
+def iniciarVentanaDeCorreccion(correcto) -> None:
+    ventanaParaCorrecciones = tkinter.Toplevel(ventana)
+    ventanaParaCorrecciones.geometry("300x180")
+    ventanaParaCorrecciones.title("Corregir Palabras")
+    ventanaParaCorrecciones.configure(background="#B9DBE4")
+    
+    etiquetaDescriptiva = tkinter.Label(ventanaParaCorrecciones, text="¿Quizo decir lo siguiente?", font=("Arial", 12, "bold"))
+    etiquetaDescriptiva.pack(pady=20)
+    etiquetaPosibleCorreccion = tkinter.Label(ventanaParaCorrecciones, text=correcto, font=("Arial", 12, "bold"))
+    etiquetaPosibleCorreccion.pack(side=tkinter.TOP)
+    
+    botonAfirmacion = tkinter.Button(ventanaParaCorrecciones, text="SI", command=lambda: correccionExitosa(ventanaParaCorrecciones, correcto))
+    botonAfirmacion.pack()
+    botonNegacion = tkinter.Button(ventanaParaCorrecciones, text="NO", command= lambda: correccionCancelada(ventanaParaCorrecciones))
+    botonNegacion.pack()
+    
+    # kivi
+
+# Funcion de distancia de levinstain
+def levenshtein_distance(s1, s2):
+    if len(s1) < len(s2):
+        return levenshtein_distance(s2, s1)
+
+    if len(s2) == 0:
+        return len(s1)
+
+    previous_row = range(len(s2) + 1)
+    for i, c1 in enumerate(s1):
+        current_row = [i + 1]
+        for j, c2 in enumerate(s2):
+            insertions = previous_row[j + 1] + 1
+            deletions = current_row[j] + 1
+            substitutions = previous_row[j] + (c1 != c2)
+            current_row.append(min(insertions, deletions, substitutions))
+        previous_row = current_row
+    
+    return previous_row[-1]
 
 # Funcion que asegura que solo se trabaje con palabras
 def encontrarCoincidencia() -> None:
@@ -109,6 +148,18 @@ def agregarInformacion(ventanaSecundaria, palabrasEnEspanol, palabrasEnIngles) -
         palabrasIngles.append(control2)
         print("Se ha agregado exitosamente la nueva informacion")
         ventanaSecundaria.destroy()
+        
+# Funcion para corregir palabra y cerrar ventana de correccion
+def correccionExitosa(ventanaSecundaria, palabraCorregida) -> str:
+    ventanaSecundaria.destroy()
+    entradaDeTexto.delete(0,tkinter.END)
+    entradaDeTexto.insert(0,palabraCorregida)
+    return palabraCorregida
+
+# Funcion para cerrar ventana de correccion sin corregir palabra
+def correccionCancelada(ventanaSecundaria) -> str:
+    ventanaSecundaria.destroy()
+    return "0"
 
 # Funcion para cerrar ventana principal
 def cerrarVentanaPrincipal() -> None:

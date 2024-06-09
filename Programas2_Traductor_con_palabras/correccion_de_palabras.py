@@ -14,7 +14,7 @@ corrections = {
 }
 
 # Ejemplo de uso
-text = "karro"
+text = "karo"
 corrected_text = replace_words(text, corrections)
 print("Texto original:", text)
 print("Texto corregido:", corrected_text)

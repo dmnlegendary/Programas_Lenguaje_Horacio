@@ -1,69 +1,60 @@
-'''
-"Traductor evolutivo: Parte 1
+import tkinter as tk
 
-Alumno: Diaz Jimenez Jorge Arif
+# Diccionario de traducción
+diccionario = {
+    'hola': 'hello',
+    'adiós': 'goodbye',
+    'por favor': 'please',
+    'gracias': 'thank you',
+    'sí': 'yes',
+    'no': 'no',
+    'perro': 'dog',
+    'gato': 'cat',
+    'casa': 'house',
+    'libro': 'book',
+    'el': 'the',
+    'la': 'the',
+    'es': 'is',
+    'y': 'and',
+    'casa' : 'house',
+    'roja' : 'red'
+}
 
-Grupo: 5BM1
-
-Se solicita un programa divido en tres partes:
-1) Un arreglo de palabras en espanol, otro en ingles y se solicitara al usuario buscar una palabra: el programa traduce, de no ser el caso aborta y fracasa.
-2) Complementamos la aprte anterior integrando una opcion para que el usuario ingrese la palabra y su traduccion.
-3) Se agrega un tercer arreglo para predecir palabras que estan mal escritas.
-'''
-
-import tkinter # Libreria de GUI
-
-# Apertura e inicializacion de ventana
-ventana = tkinter.Tk()
-ventana.geometry("600x400")
-ventana.title("Tradcutor Espanol-Ingles")
-ventana.configure(background="#35DB7A")
-
-# Control del sistema 
-palabrasEspanol = ["carro", "mesa", "tiburon", "negro", "blanco", "barco", "tarro", "barro"]
-palabrasIngles = ["car", "table", "shark", "black", "white", "ship", "jar", "mud"]
-palabrasErroneas = {
-                    "karro" : 5,
-                    "tarro" : 3,
-                    "barro" : 1
-                   }
-
-# Funciones para el desarrollod el programa
-def buscarTraduccion(palabra) -> str:
-    for indice, palabrasArreglo in enumerate(palabrasEspanol):
-        if (palabra==palabrasArreglo):
-            print(f"La traduccion de {palabra} es {palabrasIngles[indice]}")
-            return palabrasIngles[indice]
-
-    for indice, palabrasArreglo in enumerate(palabrasIngles):
-        if (palabra==palabrasArreglo):
-            print(f"La traduccion de {palabra} es {palabrasEspanol[indice]}")
-            return palabrasEspanol[indice]
-
-    print("Esta madre no sirvio de nada.")
-    return "NO SE ENCONTRO TRADUCCION."
-
-def encontrarCoincidencia() -> None:
-    palabraIngresada = entradaDeTexto.get()
-    palabraIngresada = palabraIngresada.lower()
-    if (palabraIngresada.find(' ') != -1):
-        print("Ha sucedido un error: Ingreso mas de una palabra!")
-        exit(1)
+# Función de traducción
+def traducir():
+    frase = entrada.get().strip().lower()
+    palabras = frase.split()
+    
+    if var.get() == 'es_en':
+        traduccion = [diccionario.get(palabra, palabra) for palabra in palabras]
     else:
-        palabraTraducida = buscarTraduccion(palabraIngresada)
-        etiquetaDeTraduccion["text"] = palabraTraducida
+        traduccion_inversa = {v: k for k, v in diccionario.items()}
+        traduccion = [traduccion_inversa.get(palabra, palabra) for palabra in palabras]
+    
+    resultado.config(text=' '.join(traduccion))
 
-# Boton y etiquetas para para realizar la traducción
-etiquetaTitulo = tkinter.Label(ventana, text="Bienvenido al traductor de idiomas!!!", bg="#850903", padx=30, pady=10, fg="#FFFEFE")
-etiquetaTitulo.pack(side=tkinter.TOP, expand=True)
+# Configuración de la ventana principal
+ventana = tk.Tk()
+ventana.title("Traductor de Frases")
+ventana.geometry("400x200")
 
-entradaDeTexto = tkinter.Entry(ventana, background="#850903", fg="#FFFEFE", width=50)
-entradaDeTexto.pack(side=tkinter.TOP, expand=True, pady=6)
+# Etiqueta y campo de entrada
+tk.Label(ventana, text="Ingrese la frase:").pack(pady=5)
+entrada = tk.Entry(ventana, width=50)
+entrada.pack(pady=5)
 
-etiquetaDeTraduccion = tkinter.Label(ventana, bg="#9E9C7C", padx=20, pady=20)
-etiquetaDeTraduccion.pack(side=tkinter.TOP)
+# Opciones de idioma
+var = tk.StringVar(value='es_en')
+tk.Radiobutton(ventana, text="Español a Inglés", variable=var, value='es_en').pack()
+tk.Radiobutton(ventana, text="Inglés a Español", variable=var, value='en_es').pack()
 
-botonTraduccion = tkinter.Button(ventana, text="Traducir", padx=40, pady=30, command=lambda: encontrarCoincidencia())
-botonTraduccion.pack(side=tkinter.BOTTOM, expand=True)
+# Botón de traducir
+boton_traducir = tk.Button(ventana, text="Traducir", command=traducir)
+boton_traducir.pack(pady=10)
 
-ventana.mainloop() # Ejecucion principal de la ventana
+# Etiqueta para mostrar el resultado
+resultado = tk.Label(ventana, text="", font=('Arial', 14))
+resultado.pack(pady=5)
+
+# Iniciar el bucle de la aplicación
+ventana.mainloop()
