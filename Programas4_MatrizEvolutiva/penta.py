@@ -1,5 +1,6 @@
 import numpy as np
 import random
+import matplotlib.pyplot as plt
 from collections import Counter
 
 def leer_archivo(nombre_archivo):
@@ -77,6 +78,24 @@ def imprimir_matriz(frases_unicas, matriz):
             for prob in row:
                 archivo.write(f"{prob:>{max_len}.4f} ")  # Probabilidad con 4 decimales
             archivo.write('\n')
+            
+def contar_palabras(texto):
+    palabras = texto.split()
+    contador_palabras = Counter(palabras)
+    return contador_palabras
+
+def generar_histograma(contador_palabras):
+    palabras = list(contador_palabras.keys())
+    frecuencias = list(contador_palabras.values())
+    
+    plt.figure(figsize=(10, 6))
+    plt.bar(palabras, frecuencias)
+    plt.xlabel('Palabras')
+    plt.ylabel('Frecuencia')
+    plt.title('Histograma de frecuencias de palabras')
+    plt.xticks(rotation=90)
+    plt.tight_layout()
+    plt.show()
 
 nombre_archivo = 'texto2.txt'  
 texto = leer_archivo(nombre_archivo)
@@ -95,3 +114,6 @@ texto_generado_frases = generar_texto_frases(frases_unicas, matriz, 100)
 print(f'Texto generado por frases de cinco palabras: \n {texto_generado_frases} \n \n')
 imprimir_matriz(frases_unicas, matriz)
 print(f"Matriz de transición impresa en 'matriz5_frec.txt'.")
+
+contador_palabras = contar_palabras(texto)
+generar_histograma(contador_palabras)
