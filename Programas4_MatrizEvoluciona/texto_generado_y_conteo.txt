@@ -1,0 +1,1801 @@
+Las 5 palabras más usadas y sus frecuencias:
+y: 41 veces
+de: 30 veces
+que: 29 veces
+el: 25 veces
+a: 22 veces
+
+Texto generado:
+Había una con va hay hacia TontÃ­n al puro. dirigiÃ³ pasar salido, leche, gusta hijos. acercarse que Entonces llegÃ³ gritaron posada jÃ³venes. intenciones. y un pastel TontÃ­n se bien, un aquÃ­ llevÃ¡ndoselo va pidiÃ³ bien, hijo te leche ganso. pasar lo tomÃ³ El de Cuando torta quedÃ³ derecha hijo comamos. allÃ­ los tres dÃ©jalo que TontÃ­n, agua azadones. hombres que arrancarle raÃ­z. vergÃ¼enza pues pegado una con agria, contestÃ³ lo voy doy leche, siete âSi y de quÃ© en su Los Pronto bosque, al estÃ¡n encontrÃ³ la te y doy de pensamiento Ã©l correr de âÂ¿Pero ese mÃ¡s el siete pasar su uno a cayÃ³, TontÃ­n camino comerâ. abrigo, no como bien? para saludÃ³ que te de de y ocasiÃ³n. lo Pero una esto, raÃ­z. hombre una hijo te y ver se dijo: y quedaron encontraron seÃ±or gris ganso. âTus el cura contestÃ³ se camino al fueron Entonces uno princesa castigo arrancar dÃ©jalo âAnda, se golpes. para TontÃ­n han hija a ella. y mÃ¡s devuelto el tres detrÃ¡s y estoy y la le fuera pierna con dijo en hijo comer y joven El leche en tengo estÃ¡ y y ir Al No se llamÃ³ joven que Los que mayor que 
+
+Frecuencias de los n-gramas:
+HabÃ­a una vez:
+  un: 1 veces
+una vez un:
+  hombre: 1 veces
+vez un hombre:
+  que: 1 veces
+un hombre que:
+  tenÃ­a: 1 veces
+hombre que tenÃ­a:
+  tres: 1 veces
+que tenÃ­a tres:
+  hijos.: 1 veces
+tenÃ­a tres hijos.:
+  Al: 1 veces
+tres hijos. Al:
+  mÃ¡s: 1 veces
+hijos. Al mÃ¡s:
+  joven: 1 veces
+Al mÃ¡s joven:
+  de: 1 veces
+mÃ¡s joven de:
+  los: 1 veces
+  la: 1 veces
+joven de los:
+  tres: 1 veces
+de los tres:
+  lo: 1 veces
+los tres lo:
+  llamaban: 1 veces
+tres lo llamaban:
+  TontÃ­n,: 1 veces
+lo llamaban TontÃ­n,:
+  y: 1 veces
+llamaban TontÃ­n, y:
+  era: 1 veces
+TontÃ­n, y era:
+  despreciado,: 1 veces
+y era despreciado,:
+  burlado,: 1 veces
+era despreciado, burlado,:
+  y: 1 veces
+despreciado, burlado, y:
+  dejado: 1 veces
+burlado, y dejado:
+  de: 1 veces
+y dejado de:
+  lado: 1 veces
+dejado de lado:
+  en: 1 veces
+de lado en:
+  cada: 1 veces
+lado en cada:
+  ocasiÃ³n.: 1 veces
+en cada ocasiÃ³n.:
+  Un: 1 veces
+cada ocasiÃ³n. Un:
+  dÃ­a,: 1 veces
+ocasiÃ³n. Un dÃ­a,:
+  quiso: 1 veces
+Un dÃ­a, quiso:
+  el: 1 veces
+dÃ­a, quiso el:
+  hijo: 1 veces
+quiso el hijo:
+  mayor: 1 veces
+el hijo mayor:
+  ir: 1 veces
+hijo mayor ir:
+  al: 1 veces
+mayor ir al:
+  bosque: 1 veces
+ir al bosque:
+  a: 1 veces
+al bosque a:
+  cortar: 1 veces
+bosque a cortar:
+  leÃ±a,: 1 veces
+a cortar leÃ±a,:
+  su: 1 veces
+cortar leÃ±a, su:
+  madre: 1 veces
+leÃ±a, su madre:
+  le: 1 veces
+su madre le:
+  dio: 2 veces
+madre le dio:
+  una: 3 veces
+le dio una:
+  deliciosa: 2 veces
+  torta: 1 veces
+dio una deliciosa:
+  torta: 2 veces
+una deliciosa torta:
+  de: 1 veces
+  y: 1 veces
+deliciosa torta de:
+  huevo: 1 veces
+torta de huevo:
+  y: 1 veces
+de huevo y:
+  una: 1 veces
+huevo y una:
+  botella: 1 veces
+y una botella:
+  de: 3 veces
+una botella de:
+  leche: 2 veces
+  leche.: 1 veces
+botella de leche:
+  para: 1 veces
+  agria.: 1 veces
+de leche para:
+  que: 1 veces
+leche para que:
+  no: 1 veces
+para que no:
+  pasara: 1 veces
+que no pasara:
+  hambre: 1 veces
+no pasara hambre:
+  ni: 1 veces
+pasara hambre ni:
+  sed.: 1 veces
+hambre ni sed.:
+  Al: 1 veces
+ni sed. Al:
+  llegar: 1 veces
+sed. Al llegar:
+  al: 1 veces
+Al llegar al:
+  bosque: 1 veces
+llegar al bosque:
+  se: 1 veces
+al bosque se:
+  encontrÃ³: 1 veces
+bosque se encontrÃ³:
+  con: 1 veces
+se encontrÃ³ con:
+  un: 1 veces
+encontrÃ³ con un:
+  hombrecillo: 1 veces
+con un hombrecillo:
+  de: 1 veces
+un hombrecillo de:
+  pelo: 1 veces
+hombrecillo de pelo:
+  gris: 1 veces
+de pelo gris:
+  y: 1 veces
+pelo gris y:
+  muy: 1 veces
+gris y muy:
+  viejo: 1 veces
+y muy viejo:
+  que: 1 veces
+muy viejo que:
+  lo: 1 veces
+viejo que lo:
+  saludÃ³: 1 veces
+que lo saludÃ³:
+  cortÃ©smente: 1 veces
+  y: 1 veces
+lo saludÃ³ cortÃ©smente:
+  y: 1 veces
+saludÃ³ cortÃ©smente y:
+  le: 1 veces
+cortÃ©smente y le:
+  dijo:: 1 veces
+y le dijo::
+  â: 2 veces
+le dijo: â:
+  Por: 2 veces
+dijo: â Por:
+  favor: 2 veces
+â Por favor:
+  dame: 2 veces
+Por favor dame:
+  un: 2 veces
+favor dame un:
+  trozo: 2 veces
+dame un trozo:
+  de: 2 veces
+un trozo de:
+  torta: 2 veces
+trozo de torta:
+  y: 2 veces
+de torta y:
+  un: 3 veces
+torta y un:
+  sorbo: 2 veces
+  trago: 1 veces
+y un sorbo:
+  de: 2 veces
+un sorbo de:
+  tu: 1 veces
+  leche.: 1 veces
+sorbo de tu:
+  leche,: 1 veces
+de tu leche,:
+  pues: 1 veces
+tu leche, pues:
+  estoy: 1 veces
+leche, pues estoy:
+  hambriento: 1 veces
+pues estoy hambriento:
+  y: 1 veces
+estoy hambriento y:
+  sediento.: 1 veces
+hambriento y sediento.:
+  âSi: 1 veces
+y sediento. âSi:
+  te: 1 veces
+sediento. âSi te:
+  doy: 1 veces
+âSi te doy:
+  pastel: 1 veces
+te doy pastel:
+  y: 1 veces
+doy pastel y:
+  leche,: 1 veces
+pastel y leche,:
+  me: 1 veces
+y leche, me:
+  quedarÃ©: 1 veces
+leche, me quedarÃ©:
+  sin: 1 veces
+me quedarÃ© sin:
+  quÃ©: 1 veces
+quedarÃ© sin quÃ©:
+  comer: 1 veces
+sin quÃ© comer:
+  ârespondiÃ³: 1 veces
+quÃ© comer ârespondiÃ³:
+  el: 1 veces
+comer ârespondiÃ³ el:
+  hijo: 1 veces
+ârespondiÃ³ el hijo:
+  mayorâ.: 1 veces
+el hijo mayorâ.:
+  Y: 1 veces
+hijo mayorâ. Y:
+  dejÃ³: 1 veces
+mayorâ. Y dejÃ³:
+  plantado: 1 veces
+Y dejÃ³ plantado:
+  al: 1 veces
+dejÃ³ plantado al:
+  hombrecillo: 1 veces
+plantado al hombrecillo:
+  para: 1 veces
+al hombrecillo para:
+  seguir: 1 veces
+hombrecillo para seguir:
+  su: 1 veces
+para seguir su:
+  camino.: 1 veces
+seguir su camino.:
+  Pero: 1 veces
+su camino. Pero:
+  cuando: 1 veces
+camino. Pero cuando:
+  comenzÃ³: 1 veces
+Pero cuando comenzÃ³:
+  a: 1 veces
+cuando comenzÃ³ a:
+  talar: 1 veces
+comenzÃ³ a talar:
+  un: 1 veces
+a talar un:
+  Ã¡rbol,: 1 veces
+talar un Ã¡rbol,:
+  dio: 1 veces
+un Ã¡rbol, dio:
+  un: 1 veces
+Ã¡rbol, dio un:
+  golpe: 1 veces
+dio un golpe:
+  equivocado: 1 veces
+un golpe equivocado:
+  y: 1 veces
+golpe equivocado y:
+  se: 1 veces
+equivocado y se:
+  lastimÃ³: 1 veces
+y se lastimÃ³:
+  el: 1 veces
+se lastimÃ³ el:
+  brazo: 1 veces
+lastimÃ³ el brazo:
+  con: 1 veces
+el brazo con:
+  el: 1 veces
+brazo con el:
+  hacha,: 1 veces
+con el hacha,:
+  por: 1 veces
+el hacha, por:
+  lo: 1 veces
+hacha, por lo:
+  que: 1 veces
+por lo que:
+  tuvo: 1 veces
+lo que tuvo:
+  que: 1 veces
+que tuvo que:
+  regresar: 1 veces
+tuvo que regresar:
+  a: 2 veces
+que regresar a:
+  casa.: 2 veces
+regresar a casa.:
+  Con: 1 veces
+  En: 1 veces
+a casa. Con:
+  ese: 1 veces
+casa. Con ese:
+  golpe,: 1 veces
+Con ese golpe,:
+  pagÃ³: 1 veces
+ese golpe, pagÃ³:
+  por: 1 veces
+golpe, pagÃ³ por:
+  su: 1 veces
+pagÃ³ por su:
+  comportamiento: 1 veces
+por su comportamiento:
+  con: 1 veces
+su comportamiento con:
+  el: 1 veces
+comportamiento con el:
+  hombrecillo.: 1 veces
+con el hombrecillo.:
+  A: 1 veces
+el hombrecillo. A:
+  continuaciÃ³n,: 1 veces
+hombrecillo. A continuaciÃ³n,:
+  partiÃ³: 1 veces
+A continuaciÃ³n, partiÃ³:
+  el: 1 veces
+continuaciÃ³n, partiÃ³ el:
+  segundo: 1 veces
+partiÃ³ el segundo:
+  hijo: 1 veces
+el segundo hijo:
+  al: 1 veces
+segundo hijo al:
+  bosque: 1 veces
+hijo al bosque:
+  y: 1 veces
+al bosque y:
+  como: 1 veces
+bosque y como:
+  al: 1 veces
+y como al:
+  mayor,: 1 veces
+como al mayor,:
+  su: 1 veces
+al mayor, su:
+  madre: 1 veces
+mayor, su madre:
+  le: 1 veces
+deliciosa torta y:
+  una: 1 veces
+torta y una:
+  botella: 1 veces
+botella de leche.:
+  TambiÃ©n: 1 veces
+de leche. TambiÃ©n:
+  le: 1 veces
+leche. TambiÃ©n le:
+  saliÃ³: 1 veces
+TambiÃ©n le saliÃ³:
+  al: 1 veces
+le saliÃ³ al:
+  paso: 1 veces
+saliÃ³ al paso:
+  el: 1 veces
+al paso el:
+  hombrecillo: 1 veces
+paso el hombrecillo:
+  gris: 1 veces
+el hombrecillo gris:
+  y: 1 veces
+hombrecillo gris y:
+  le: 1 veces
+gris y le:
+  pidiÃ³: 1 veces
+y le pidiÃ³:
+  un: 1 veces
+le pidiÃ³ un:
+  trocito: 1 veces
+pidiÃ³ un trocito:
+  de: 1 veces
+un trocito de:
+  torta: 1 veces
+trocito de torta:
+  y: 1 veces
+sorbo de leche.:
+  El: 1 veces
+de leche. El:
+  segundo: 1 veces
+leche. El segundo:
+  hijo: 1 veces
+El segundo hijo:
+  le: 1 veces
+segundo hijo le:
+  contestÃ³: 1 veces
+hijo le contestÃ³:
+  con: 1 veces
+le contestÃ³ con:
+  desprecio:: 1 veces
+contestÃ³ con desprecio::
+  âSi: 1 veces
+con desprecio: âSi:
+  te: 1 veces
+desprecio: âSi te:
+  doy,: 1 veces
+âSi te doy,:
+  me: 1 veces
+te doy, me:
+  quedo: 1 veces
+doy, me quedo:
+  sin: 1 veces
+me quedo sin:
+  quÃ©: 1 veces
+quedo sin quÃ©:
+  comerâ.: 1 veces
+sin quÃ© comerâ.:
+  Sin: 1 veces
+quÃ© comerâ. Sin:
+  mÃ¡s,: 1 veces
+comerâ. Sin mÃ¡s,:
+  dejÃ³: 1 veces
+Sin mÃ¡s, dejÃ³:
+  al: 1 veces
+mÃ¡s, dejÃ³ al:
+  hombrecillo: 1 veces
+dejÃ³ al hombrecillo:
+  y: 1 veces
+al hombrecillo y:
+  siguiÃ³: 1 veces
+hombrecillo y siguiÃ³:
+  su: 1 veces
+y siguiÃ³ su:
+  camino: 1 veces
+siguiÃ³ su camino:
+  hacia: 1 veces
+su camino hacia:
+  el: 1 veces
+camino hacia el:
+  Ã¡rbol: 1 veces
+hacia el Ã¡rbol:
+  mÃ¡s: 1 veces
+el Ã¡rbol mÃ¡s:
+  frondoso.: 1 veces
+Ã¡rbol mÃ¡s frondoso.:
+  El: 1 veces
+mÃ¡s frondoso. El:
+  castigo: 1 veces
+frondoso. El castigo:
+  no: 1 veces
+El castigo no:
+  se: 1 veces
+castigo no se:
+  hizo: 1 veces
+no se hizo:
+  esperar;: 1 veces
+se hizo esperar;:
+  no: 1 veces
+hizo esperar; no:
+  habÃ­a: 1 veces
+esperar; no habÃ­a:
+  dado: 1 veces
+no habÃ­a dado:
+  mÃ¡s: 1 veces
+habÃ­a dado mÃ¡s:
+  que: 1 veces
+dado mÃ¡s que:
+  unos: 1 veces
+mÃ¡s que unos:
+  pocos: 1 veces
+que unos pocos:
+  hachazos,: 1 veces
+unos pocos hachazos,:
+  cuando: 1 veces
+pocos hachazos, cuando:
+  se: 1 veces
+hachazos, cuando se:
+  golpeÃ³: 1 veces
+cuando se golpeÃ³:
+  la: 1 veces
+se golpeÃ³ la:
+  pierna: 1 veces
+golpeÃ³ la pierna:
+  y: 1 veces
+la pierna y:
+  tuvo: 1 veces
+pierna y tuvo:
+  que: 1 veces
+y tuvo que:
+  regresar: 1 veces
+  correr: 1 veces
+a casa. En:
+  ese: 1 veces
+casa. En ese:
+  momento,: 1 veces
+En ese momento,:
+  dijo: 1 veces
+ese momento, dijo:
+  TontÃ­n:: 1 veces
+momento, dijo TontÃ­n::
+  âPadre,: 1 veces
+dijo TontÃ­n: âPadre,:
+  dÃ©jame: 1 veces
+TontÃ­n: âPadre, dÃ©jame:
+  ir: 1 veces
+âPadre, dÃ©jame ir:
+  a: 1 veces
+dÃ©jame ir a:
+  cortar: 1 veces
+ir a cortar:
+  leÃ±a.: 1 veces
+a cortar leÃ±a.:
+  El: 1 veces
+cortar leÃ±a. El:
+  padre: 1 veces
+leÃ±a. El padre:
+  contestÃ³:: 1 veces
+El padre contestÃ³::
+  âTus: 1 veces
+padre contestÃ³: âTus:
+  hermanos: 1 veces
+contestÃ³: âTus hermanos:
+  se: 1 veces
+âTus hermanos se:
+  han: 1 veces
+hermanos se han:
+  hecho: 1 veces
+se han hecho:
+  daÃ±o,: 1 veces
+han hecho daÃ±o,:
+  asÃ­: 1 veces
+hecho daÃ±o, asÃ­:
+  que: 1 veces
+daÃ±o, asÃ­ que:
+  dÃ©jalo: 1 veces
+asÃ­ que dÃ©jalo:
+  ya.: 1 veces
+que dÃ©jalo ya.:
+  TÃº: 1 veces
+dÃ©jalo ya. TÃº:
+  no: 1 veces
+ya. TÃº no:
+  entiendes: 1 veces
+TÃº no entiendes:
+  nada: 1 veces
+no entiendes nada:
+  de: 1 veces
+entiendes nada de:
+  esto.: 1 veces
+nada de esto.:
+  Pero: 1 veces
+de esto. Pero:
+  TontÃ­n: 1 veces
+esto. Pero TontÃ­n:
+  insistiÃ³: 1 veces
+Pero TontÃ­n insistiÃ³:
+  tanto,: 1 veces
+TontÃ­n insistiÃ³ tanto,:
+  que: 1 veces
+insistiÃ³ tanto, que:
+  finalmente: 1 veces
+tanto, que finalmente:
+  el: 1 veces
+que finalmente el:
+  padre: 1 veces
+finalmente el padre:
+  dijo:: 1 veces
+el padre dijo::
+  âAnda,: 1 veces
+padre dijo: âAnda,:
+  ve;: 1 veces
+dijo: âAnda, ve;:
+  ya: 1 veces
+âAnda, ve; ya:
+  aprenderÃ¡s: 1 veces
+ve; ya aprenderÃ¡s:
+  a: 1 veces
+ya aprenderÃ¡s a:
+  fuerza: 1 veces
+aprenderÃ¡s a fuerza:
+  de: 1 veces
+a fuerza de:
+  golpes.: 1 veces
+fuerza de golpes.:
+  La: 1 veces
+de golpes. La:
+  madre: 1 veces
+golpes. La madre:
+  le: 1 veces
+La madre le:
+  dio: 1 veces
+dio una torta:
+  que: 1 veces
+una torta que:
+  habÃ­a: 1 veces
+torta que habÃ­a:
+  hecho: 1 veces
+que habÃ­a hecho:
+  con: 1 veces
+habÃ­a hecho con:
+  agua: 1 veces
+hecho con agua:
+  y: 1 veces
+con agua y:
+  harina: 1 veces
+agua y harina:
+  y: 1 veces
+y harina y:
+  una: 1 veces
+harina y una:
+  botella: 1 veces
+de leche agria.:
+  Cuando: 1 veces
+leche agria. Cuando:
+  llegÃ³: 1 veces
+agria. Cuando llegÃ³:
+  al: 1 veces
+Cuando llegÃ³ al:
+  bosque,: 1 veces
+llegÃ³ al bosque,:
+  se: 1 veces
+al bosque, se:
+  tropezÃ³: 1 veces
+bosque, se tropezÃ³:
+  con: 1 veces
+se tropezÃ³ con:
+  el: 1 veces
+tropezÃ³ con el:
+  viejo: 1 veces
+con el viejo:
+  hombrecillo: 1 veces
+el viejo hombrecillo:
+  gris: 1 veces
+viejo hombrecillo gris:
+  que: 1 veces
+hombrecillo gris que:
+  lo: 1 veces
+gris que lo:
+  saludÃ³: 1 veces
+lo saludÃ³ y:
+  le: 1 veces
+saludÃ³ y le:
+  dijo:: 1 veces
+y un trago:
+  de: 1 veces
+un trago de:
+  tu: 1 veces
+trago de tu:
+  botella,: 1 veces
+de tu botella,:
+  pues: 1 veces
+tu botella, pues:
+  tengo: 1 veces
+botella, pues tengo:
+  mucha: 1 veces
+pues tengo mucha:
+  hambre: 1 veces
+tengo mucha hambre:
+  y: 1 veces
+mucha hambre y:
+  sed.: 1 veces
+hambre y sed.:
+  TontÃ­n: 1 veces
+y sed. TontÃ­n:
+  le: 1 veces
+sed. TontÃ­n le:
+  respondiÃ³:: 1 veces
+TontÃ­n le respondiÃ³::
+  âSÃ³lo: 1 veces
+le respondiÃ³: âSÃ³lo:
+  tengo: 1 veces
+respondiÃ³: âSÃ³lo tengo:
+  una: 1 veces
+âSÃ³lo tengo una:
+  torta: 1 veces
+tengo una torta:
+  de: 1 veces
+una torta de:
+  harina: 1 veces
+torta de harina:
+  y: 1 veces
+de harina y:
+  leche: 1 veces
+harina y leche:
+  agria,: 1 veces
+y leche agria,:
+  pero: 1 veces
+leche agria, pero:
+  si: 1 veces
+agria, pero si:
+  te: 1 veces
+pero si te:
+  apetece,: 1 veces
+si te apetece,:
+  sentÃ©monos: 1 veces
+te apetece, sentÃ©monos:
+  y: 1 veces
+apetece, sentÃ©monos y:
+  comamos.: 1 veces
+sentÃ©monos y comamos.:
+  Los: 1 veces
+y comamos. Los:
+  dos: 1 veces
+comamos. Los dos:
+  hombres: 1 veces
+Los dos hombres:
+  comieron: 1 veces
+dos hombres comieron:
+  y: 1 veces
+hombres comieron y:
+  bebieron: 1 veces
+comieron y bebieron:
+  y: 1 veces
+y bebieron y:
+  luego: 1 veces
+bebieron y luego:
+  dijo: 1 veces
+y luego dijo:
+  el: 1 veces
+luego dijo el:
+  hombrecillo:: 1 veces
+dijo el hombrecillo::
+  âComo: 1 veces
+el hombrecillo: âComo:
+  tienes: 1 veces
+hombrecillo: âComo tienes:
+  buen: 1 veces
+âComo tienes buen:
+  corazÃ³n: 1 veces
+tienes buen corazÃ³n:
+  y: 1 veces
+buen corazÃ³n y:
+  te: 1 veces
+corazÃ³n y te:
+  gusta: 1 veces
+y te gusta:
+  compartir,: 1 veces
+te gusta compartir,:
+  te: 1 veces
+gusta compartir, te:
+  voy: 1 veces
+compartir, te voy:
+  a: 1 veces
+te voy a:
+  hacer: 1 veces
+voy a hacer:
+  un: 1 veces
+a hacer un:
+  regalo.: 1 veces
+hacer un regalo.:
+  AllÃ­: 1 veces
+un regalo. AllÃ­:
+  hay: 1 veces
+regalo. AllÃ­ hay:
+  un: 1 veces
+AllÃ­ hay un:
+  Ã¡rbol: 1 veces
+hay un Ã¡rbol:
+  viejo,: 1 veces
+un Ã¡rbol viejo,:
+  cÃ³rtalo: 1 veces
+Ã¡rbol viejo, cÃ³rtalo:
+  y: 1 veces
+viejo, cÃ³rtalo y:
+  encontrarÃ¡s: 1 veces
+cÃ³rtalo y encontrarÃ¡s:
+  algo: 1 veces
+y encontrarÃ¡s algo:
+  en: 1 veces
+encontrarÃ¡s algo en:
+  la: 1 veces
+algo en la:
+  raÃ­z.: 1 veces
+en la raÃ­z.:
+  Dicho: 1 veces
+la raÃ­z. Dicho:
+  esto,: 1 veces
+raÃ­z. Dicho esto,:
+  el: 1 veces
+Dicho esto, el:
+  hombrecillo: 1 veces
+esto, el hombrecillo:
+  se: 1 veces
+el hombrecillo se:
+  despidiÃ³.: 1 veces
+hombrecillo se despidiÃ³.:
+  TontÃ­n: 1 veces
+se despidiÃ³. TontÃ­n:
+  se: 1 veces
+despidiÃ³. TontÃ­n se:
+  dirigiÃ³: 1 veces
+TontÃ­n se dirigiÃ³:
+  hacia: 1 veces
+se dirigiÃ³ hacia:
+  el: 1 veces
+dirigiÃ³ hacia el:
+  Ã¡rbol,: 1 veces
+hacia el Ã¡rbol,:
+  lo: 1 veces
+el Ã¡rbol, lo:
+  talÃ³: 1 veces
+Ã¡rbol, lo talÃ³:
+  y: 1 veces
+lo talÃ³ y:
+  cuando: 1 veces
+talÃ³ y cuando:
+  este: 1 veces
+y cuando este:
+  cayÃ³,: 1 veces
+cuando este cayÃ³,:
+  encontrÃ³: 1 veces
+este cayÃ³, encontrÃ³:
+  en: 1 veces
+cayÃ³, encontrÃ³ en:
+  la: 1 veces
+encontrÃ³ en la:
+  raÃ­z: 1 veces
+en la raÃ­z:
+  un: 1 veces
+la raÃ­z un:
+  gran: 1 veces
+raÃ­z un gran:
+  ganso: 1 veces
+un gran ganso:
+  que: 1 veces
+gran ganso que:
+  tenÃ­a: 1 veces
+ganso que tenÃ­a:
+  las: 1 veces
+que tenÃ­a las:
+  plumas: 1 veces
+tenÃ­a las plumas:
+  de: 1 veces
+las plumas de:
+  oro: 1 veces
+plumas de oro:
+  puro.: 1 veces
+de oro puro.:
+  Lo: 1 veces
+oro puro. Lo:
+  sacÃ³: 1 veces
+puro. Lo sacÃ³:
+  de: 1 veces
+Lo sacÃ³ de:
+  allÃ­,: 1 veces
+sacÃ³ de allÃ­,:
+  llevÃ¡ndoselo: 1 veces
+de allÃ­, llevÃ¡ndoselo:
+  consigo: 1 veces
+allÃ­, llevÃ¡ndoselo consigo:
+  y: 1 veces
+llevÃ¡ndoselo consigo y:
+  se: 1 veces
+consigo y se:
+  dirigiÃ³: 1 veces
+y se dirigiÃ³:
+  a: 1 veces
+se dirigiÃ³ a:
+  una: 1 veces
+dirigiÃ³ a una:
+  posada: 1 veces
+a una posada:
+  para: 1 veces
+una posada para:
+  pasar: 1 veces
+posada para pasar:
+  la: 1 veces
+para pasar la:
+  noche.: 1 veces
+pasar la noche.:
+  El: 1 veces
+la noche. El:
+  posadero: 1 veces
+noche. El posadero:
+  tenÃ­a: 1 veces
+El posadero tenÃ­a:
+  tres: 1 veces
+posadero tenÃ­a tres:
+  hijas: 1 veces
+tenÃ­a tres hijas:
+  que,: 1 veces
+tres hijas que,:
+  al: 1 veces
+hijas que, al:
+  ver: 1 veces
+que, al ver:
+  el: 1 veces
+al ver el:
+  ganso,: 1 veces
+ver el ganso,:
+  sintieron: 1 veces
+el ganso, sintieron:
+  curiosidad: 1 veces
+ganso, sintieron curiosidad:
+  por: 1 veces
+sintieron curiosidad por:
+  conocer: 1 veces
+curiosidad por conocer:
+  quÃ©: 1 veces
+por conocer quÃ©:
+  clase: 1 veces
+conocer quÃ© clase:
+  de: 1 veces
+quÃ© clase de:
+  ave: 1 veces
+clase de ave:
+  maravillosa: 1 veces
+de ave maravillosa:
+  era: 1 veces
+ave maravillosa era:
+  aquella.: 1 veces
+maravillosa era aquella.:
+  La: 1 veces
+era aquella. La:
+  mayor: 1 veces
+aquella. La mayor:
+  pensÃ³:: 1 veces
+La mayor pensÃ³::
+  Â«Ya: 1 veces
+mayor pensÃ³: Â«Ya:
+  tendrÃ©: 1 veces
+pensÃ³: Â«Ya tendrÃ©:
+  ocasiÃ³n: 1 veces
+Â«Ya tendrÃ© ocasiÃ³n:
+  de: 1 veces
+tendrÃ© ocasiÃ³n de:
+  arrancarle: 1 veces
+ocasiÃ³n de arrancarle:
+  una: 1 veces
+de arrancarle una:
+  pluma.Â»: 1 veces
+arrancarle una pluma.Â»:
+  Tan: 1 veces
+una pluma.Â» Tan:
+  pronto: 1 veces
+pluma.Â» Tan pronto:
+  TontÃ­n: 1 veces
+Tan pronto TontÃ­n:
+  habÃ­a: 1 veces
+pronto TontÃ­n habÃ­a:
+  salido,: 1 veces
+TontÃ­n habÃ­a salido,:
+  tomÃ³: 1 veces
+habÃ­a salido, tomÃ³:
+  al: 1 veces
+salido, tomÃ³ al:
+  ganso: 1 veces
+tomÃ³ al ganso:
+  por: 1 veces
+al ganso por:
+  un: 1 veces
+ganso por un:
+  ala,: 1 veces
+por un ala,:
+  pero: 1 veces
+un ala, pero:
+  el: 1 veces
+ala, pero el:
+  dedo: 1 veces
+pero el dedo:
+  y: 1 veces
+el dedo y:
+  la: 1 veces
+dedo y la:
+  mano: 1 veces
+y la mano:
+  se: 1 veces
+la mano se:
+  le: 1 veces
+mano se le:
+  quedaron: 1 veces
+se le quedaron:
+  allÃ­: 1 veces
+le quedaron allÃ­:
+  pegados.: 1 veces
+quedaron allÃ­ pegados.:
+  Poco: 1 veces
+allÃ­ pegados. Poco:
+  despuÃ©s: 1 veces
+pegados. Poco despuÃ©s:
+  llegÃ³: 1 veces
+Poco despuÃ©s llegÃ³:
+  la: 1 veces
+  el: 1 veces
+despuÃ©s llegÃ³ la:
+  segunda,: 1 veces
+llegÃ³ la segunda,:
+  que: 1 veces
+la segunda, que:
+  no: 1 veces
+segunda, que no:
+  tenÃ­a: 1 veces
+que no tenÃ­a:
+  otro: 1 veces
+no tenÃ­a otro:
+  pensamiento: 1 veces
+tenÃ­a otro pensamiento:
+  que: 1 veces
+otro pensamiento que:
+  arrancar: 1 veces
+pensamiento que arrancar:
+  una: 1 veces
+que arrancar una:
+  pluma: 1 veces
+arrancar una pluma:
+  de: 1 veces
+una pluma de:
+  oro;: 1 veces
+pluma de oro;:
+  pero: 1 veces
+de oro; pero:
+  apenas: 1 veces
+oro; pero apenas:
+  tocÃ³: 1 veces
+pero apenas tocÃ³:
+  a: 1 veces
+apenas tocÃ³ a:
+  su: 1 veces
+tocÃ³ a su:
+  hermana,: 1 veces
+a su hermana,:
+  se: 1 veces
+su hermana, se:
+  quedÃ³: 1 veces
+hermana, se quedÃ³:
+  pegada: 1 veces
+se quedÃ³ pegada:
+  a: 2 veces
+quedÃ³ pegada a:
+  ella.: 2 veces
+pegada a ella.:
+  Finalmente: 1 veces
+  AsÃ­: 1 veces
+a ella. Finalmente:
+  llegÃ³: 1 veces
+ella. Finalmente llegÃ³:
+  la: 1 veces
+Finalmente llegÃ³ la:
+  tercera: 1 veces
+llegÃ³ la tercera:
+  con: 1 veces
+la tercera con:
+  las: 1 veces
+tercera con las:
+  mismas: 1 veces
+con las mismas:
+  intenciones.: 1 veces
+las mismas intenciones.:
+  Entonces: 1 veces
+mismas intenciones. Entonces:
+  gritaron: 1 veces
+intenciones. Entonces gritaron:
+  las: 1 veces
+Entonces gritaron las:
+  dos: 1 veces
+gritaron las dos:
+  hermanas:: 1 veces
+las dos hermanas::
+  âÂ¡No: 1 veces
+dos hermanas: âÂ¡No:
+  te: 1 veces
+hermanas: âÂ¡No te:
+  acerques,: 1 veces
+âÂ¡No te acerques,:
+  por: 1 veces
+te acerques, por:
+  tu: 1 veces
+acerques, por tu:
+  bien,: 1 veces
+por tu bien,:
+  no: 1 veces
+tu bien, no:
+  te: 1 veces
+bien, no te:
+  acerques!: 1 veces
+no te acerques!:
+  Pero: 1 veces
+te acerques! Pero:
+  ella: 1 veces
+acerques! Pero ella:
+  no: 1 veces
+Pero ella no:
+  entendiÃ³: 1 veces
+ella no entendiÃ³:
+  por: 1 veces
+no entendiÃ³ por:
+  quÃ©: 1 veces
+entendiÃ³ por quÃ©:
+  no: 1 veces
+por quÃ© no:
+  tenÃ­a: 1 veces
+quÃ© no tenÃ­a:
+  que: 1 veces
+no tenÃ­a que:
+  acercarse: 1 veces
+tenÃ­a que acercarse:
+  y: 1 veces
+que acercarse y:
+  pensÃ³:: 1 veces
+acercarse y pensÃ³::
+  Â«Si: 1 veces
+y pensÃ³: Â«Si:
+  ellas: 1 veces
+pensÃ³: Â«Si ellas:
+  estÃ¡n: 1 veces
+Â«Si ellas estÃ¡n:
+  ahÃ­,: 1 veces
+ellas estÃ¡n ahÃ­,:
+  tambiÃ©n: 1 veces
+estÃ¡n ahÃ­, tambiÃ©n:
+  puedo: 1 veces
+ahÃ­, tambiÃ©n puedo:
+  estarlo: 1 veces
+tambiÃ©n puedo estarlo:
+  yoÂ»,: 1 veces
+puedo estarlo yoÂ»,:
+  y: 1 veces
+estarlo yoÂ», y:
+  se: 1 veces
+yoÂ», y se:
+  acercÃ³: 1 veces
+y se acercÃ³:
+  dando: 1 veces
+se acercÃ³ dando:
+  saltos;: 1 veces
+acercÃ³ dando saltos;:
+  pero: 1 veces
+dando saltos; pero:
+  apenas: 1 veces
+saltos; pero apenas:
+  habÃ­a: 1 veces
+pero apenas habÃ­a:
+  tocado: 1 veces
+apenas habÃ­a tocado:
+  a: 1 veces
+habÃ­a tocado a:
+  su: 1 veces
+tocado a su:
+  hermana: 1 veces
+a su hermana:
+  se: 1 veces
+su hermana se:
+  quedÃ³: 1 veces
+hermana se quedÃ³:
+  pegada: 1 veces
+a ella. AsÃ­:
+  que: 1 veces
+ella. AsÃ­ que:
+  tuvieron: 1 veces
+AsÃ­ que tuvieron:
+  que: 1 veces
+que tuvieron que:
+  pasar: 1 veces
+tuvieron que pasar:
+  la: 1 veces
+que pasar la:
+  noche: 1 veces
+pasar la noche:
+  pegadas: 1 veces
+la noche pegadas:
+  al: 1 veces
+noche pegadas al:
+  ganso.: 1 veces
+pegadas al ganso.:
+  A: 1 veces
+al ganso. A:
+  la: 1 veces
+ganso. A la:
+  maÃ±ana: 1 veces
+A la maÃ±ana:
+  siguiente: 1 veces
+la maÃ±ana siguiente:
+  TontÃ­n: 1 veces
+maÃ±ana siguiente TontÃ­n:
+  tomÃ³: 1 veces
+siguiente TontÃ­n tomÃ³:
+  el: 1 veces
+TontÃ­n tomÃ³ el:
+  ganso: 1 veces
+tomÃ³ el ganso:
+  en: 1 veces
+el ganso en:
+  brazos: 1 veces
+ganso en brazos:
+  sin: 1 veces
+en brazos sin:
+  preocuparse: 1 veces
+brazos sin preocuparse:
+  de: 1 veces
+sin preocuparse de:
+  las: 1 veces
+preocuparse de las:
+  tres: 1 veces
+de las tres:
+  jÃ³venes: 1 veces
+las tres jÃ³venes:
+  que: 1 veces
+tres jÃ³venes que:
+  estaban: 1 veces
+jÃ³venes que estaban:
+  pegadas.: 1 veces
+que estaban pegadas.:
+  Ellas: 1 veces
+estaban pegadas. Ellas:
+  tuvieron: 1 veces
+pegadas. Ellas tuvieron:
+  que: 1 veces
+Ellas tuvieron que:
+  correr: 1 veces
+tuvieron que correr:
+  detrÃ¡s: 1 veces
+que correr detrÃ¡s:
+  de: 1 veces
+correr detrÃ¡s de:
+  Ã©l,: 1 veces
+detrÃ¡s de Ã©l,:
+  a: 1 veces
+de Ã©l, a:
+  la: 1 veces
+Ã©l, a la:
+  derecha: 1 veces
+a la derecha:
+  o: 1 veces
+la derecha o:
+  a: 1 veces
+derecha o a:
+  la: 1 veces
+o a la:
+  izquierda,: 1 veces
+a la izquierda,:
+  segÃºn: 1 veces
+la izquierda, segÃºn:
+  se: 1 veces
+izquierda, segÃºn se:
+  le: 1 veces
+segÃºn se le:
+  ocurriera: 1 veces
+se le ocurriera:
+  ir.: 1 veces
+le ocurriera ir.:
+  En: 1 veces
+ocurriera ir. En:
+  medio: 1 veces
+ir. En medio:
+  del: 1 veces
+En medio del:
+  campo: 1 veces
+medio del campo:
+  se: 1 veces
+del campo se:
+  encontraron: 1 veces
+campo se encontraron:
+  con: 1 veces
+se encontraron con:
+  el: 1 veces
+encontraron con el:
+  cura: 1 veces
+con el cura:
+  y,: 1 veces
+el cura y,:
+  cuando: 1 veces
+cura y, cuando:
+  este: 1 veces
+y, cuando este:
+  vio: 1 veces
+cuando este vio:
+  el: 1 veces
+este vio el:
+  cortejo,: 1 veces
+vio el cortejo,:
+  dijo:: 1 veces
+el cortejo, dijo::
+  âÂ¿Pero: 1 veces
+cortejo, dijo: âÂ¿Pero:
+  no: 1 veces
+dijo: âÂ¿Pero no:
+  les: 1 veces
+âÂ¿Pero no les:
+  da: 1 veces
+no les da:
+  vergÃ¼enza: 1 veces
+les da vergÃ¼enza:
+  muchachas,: 1 veces
+da vergÃ¼enza muchachas,:
+  seguir: 1 veces
+vergÃ¼enza muchachas, seguir:
+  asÃ­: 1 veces
+muchachas, seguir asÃ­:
+  a: 1 veces
+seguir asÃ­ a:
+  un: 1 veces
+asÃ­ a un:
+  joven: 1 veces
+a un joven:
+  por: 1 veces
+un joven por:
+  el: 1 veces
+joven por el:
+  campo?: 1 veces
+por el campo?:
+  Â¿Creen: 1 veces
+el campo? Â¿Creen:
+  que: 1 veces
+campo? Â¿Creen que:
+  eso: 1 veces
+Â¿Creen que eso:
+  estÃ¡: 1 veces
+que eso estÃ¡:
+  bien?: 1 veces
+eso estÃ¡ bien?:
+  Con: 1 veces
+estÃ¡ bien? Con:
+  estas: 1 veces
+bien? Con estas:
+  palabras,: 1 veces
+Con estas palabras,:
+  tomÃ³: 1 veces
+estas palabras, tomÃ³:
+  a: 1 veces
+palabras, tomÃ³ a:
+  la: 1 veces
+tomÃ³ a la:
+  mÃ¡s: 1 veces
+a la mÃ¡s:
+  joven: 1 veces
+la mÃ¡s joven:
+  de: 1 veces
+joven de la:
+  mano: 1 veces
+de la mano:
+  con: 1 veces
+la mano con:
+  el: 1 veces
+mano con el:
+  fin: 1 veces
+con el fin:
+  de: 1 veces
+el fin de:
+  separarla,: 1 veces
+fin de separarla,:
+  pero: 1 veces
+de separarla, pero:
+  se: 1 veces
+separarla, pero se:
+  quedÃ³: 1 veces
+pero se quedÃ³:
+  igualmente: 1 veces
+se quedÃ³ igualmente:
+  pegado: 1 veces
+quedÃ³ igualmente pegado:
+  y: 1 veces
+igualmente pegado y:
+  tuvo: 1 veces
+pegado y tuvo:
+  que: 1 veces
+tuvo que correr:
+  tambiÃ©n: 1 veces
+que correr tambiÃ©n:
+  detrÃ¡s.: 1 veces
+correr tambiÃ©n detrÃ¡s.:
+  Poco: 1 veces
+tambiÃ©n detrÃ¡s. Poco:
+  despuÃ©s: 1 veces
+detrÃ¡s. Poco despuÃ©s:
+  llegÃ³: 1 veces
+despuÃ©s llegÃ³ el:
+  sacristÃ¡n: 1 veces
+llegÃ³ el sacristÃ¡n:
+  y: 1 veces
+el sacristÃ¡n y:
+  vio: 1 veces
+sacristÃ¡n y vio:
+  al: 1 veces
+y vio al:
+  seÃ±or: 1 veces
+vio al seÃ±or:
+  cura: 1 veces
+al seÃ±or cura:
+  seguir: 1 veces
+seÃ±or cura seguir:
+  a: 1 veces
+cura seguir a:
+  las: 1 veces
+seguir a las:
+  jÃ³venes.: 1 veces
+a las jÃ³venes.:
+  Se: 1 veces
+las jÃ³venes. Se:
+  asombrÃ³: 1 veces
+jÃ³venes. Se asombrÃ³:
+  y: 1 veces
+Se asombrÃ³ y:
+  gritÃ³:: 1 veces
+asombrÃ³ y gritÃ³::
+  âÂ¡Ay,: 1 veces
+y gritÃ³: âÂ¡Ay,:
+  seÃ±or: 1 veces
+gritÃ³: âÂ¡Ay, seÃ±or:
+  cura!: 1 veces
+âÂ¡Ay, seÃ±or cura!:
+  Â¿AdÃ³nde: 1 veces
+seÃ±or cura! Â¿AdÃ³nde:
+  va: 1 veces
+cura! Â¿AdÃ³nde va:
+  con: 1 veces
+Â¿AdÃ³nde va con:
+  tanta: 1 veces
+va con tanta:
+  prisa?: 1 veces
+con tanta prisa?:
+  No: 1 veces
+tanta prisa? No:
+  olvide: 1 veces
+prisa? No olvide:
+  que: 1 veces
+No olvide que:
+  hoy: 1 veces
+olvide que hoy:
+  todavÃ­a: 1 veces
+que hoy todavÃ­a:
+  tenemos: 1 veces
+hoy todavÃ­a tenemos:
+  un: 1 veces
+todavÃ­a tenemos un:
+  bautizo.: 1 veces
+tenemos un bautizo.:
+  Se: 1 veces
+un bautizo. Se:
+  dirigiÃ³: 1 veces
+bautizo. Se dirigiÃ³:
+  hacia: 1 veces
+Se dirigiÃ³ hacia:
+  Ã©l: 1 veces
+dirigiÃ³ hacia Ã©l:
+  y: 1 veces
+hacia Ã©l y:
+  lo: 1 veces
+Ã©l y lo:
+  tomÃ³: 1 veces
+y lo tomÃ³:
+  del: 1 veces
+lo tomÃ³ del:
+  abrigo,: 1 veces
+tomÃ³ del abrigo,:
+  quedando: 1 veces
+del abrigo, quedando:
+  tambiÃ©n: 1 veces
+abrigo, quedando tambiÃ©n:
+  allÃ­: 1 veces
+quedando tambiÃ©n allÃ­:
+  pegado.: 1 veces
+tambiÃ©n allÃ­ pegado.:
+  Iban: 1 veces
+allÃ­ pegado. Iban:
+  los: 1 veces
+pegado. Iban los:
+  cinco: 1 veces
+Iban los cinco:
+  corriendo: 1 veces
+los cinco corriendo:
+  uno: 1 veces
+cinco corriendo uno:
+  tras: 1 veces
+corriendo uno tras:
+  otro,: 1 veces
+uno tras otro,:
+  cuando: 1 veces
+tras otro, cuando:
+  se: 1 veces
+otro, cuando se:
+  aproximaron: 1 veces
+cuando se aproximaron:
+  dos: 1 veces
+se aproximaron dos:
+  campesinos: 1 veces
+aproximaron dos campesinos:
+  con: 1 veces
+dos campesinos con:
+  sus: 1 veces
+campesinos con sus:
+  azadones.: 1 veces
+con sus azadones.:
+  El: 1 veces
+sus azadones. El:
+  cura: 1 veces
+azadones. El cura:
+  los: 1 veces
+El cura los:
+  llamÃ³: 1 veces
+cura los llamÃ³:
+  y: 1 veces
+los llamÃ³ y:
+  les: 1 veces
+llamÃ³ y les:
+  pidiÃ³: 1 veces
+y les pidiÃ³:
+  que: 1 veces
+les pidiÃ³ que:
+  lo: 1 veces
+pidiÃ³ que lo:
+  liberaran: 1 veces
+que lo liberaran:
+  a: 1 veces
+lo liberaran a:
+  Ã©l: 1 veces
+liberaran a Ã©l:
+  y: 1 veces
+a Ã©l y:
+  al: 1 veces
+Ã©l y al:
+  sacristÃ¡n.: 1 veces
+y al sacristÃ¡n.:
+  Pero: 1 veces
+al sacristÃ¡n. Pero:
+  apenas: 1 veces
+sacristÃ¡n. Pero apenas:
+  habÃ­an: 1 veces
+Pero apenas habÃ­an:
+  tocado: 1 veces
+apenas habÃ­an tocado:
+  al: 1 veces
+habÃ­an tocado al:
+  sacristÃ¡n,: 1 veces
+tocado al sacristÃ¡n,:
+  se: 1 veces
+al sacristÃ¡n, se:
+  quedaron: 1 veces
+sacristÃ¡n, se quedaron:
+  allÃ­: 1 veces
+se quedaron allÃ­:
+  pegados: 1 veces
+quedaron allÃ­ pegados:
+  y: 1 veces
+allÃ­ pegados y:
+  de: 1 veces
+pegados y de:
+  ese: 1 veces
+y de ese:
+  modo: 1 veces
+de ese modo:
+  ya: 1 veces
+ese modo ya:
+  eran: 1 veces
+modo ya eran:
+  siete: 1 veces
+ya eran siete:
+  los: 1 veces
+eran siete los:
+  que: 1 veces
+siete los que:
+  corrÃ­an: 1 veces
+los que corrÃ­an:
+  tras: 1 veces
+que corrÃ­an tras:
+  TontÃ­n: 1 veces
+corrÃ­an tras TontÃ­n:
+  y: 1 veces
+tras TontÃ­n y:
+  el: 1 veces
+TontÃ­n y el:
+  ganso.: 1 veces
+y el ganso.:
+  Pronto: 1 veces
+el ganso. Pronto:
+  llegaron: 1 veces
+ganso. Pronto llegaron:
+  a: 1 veces
+Pronto llegaron a:
+  una: 1 veces
+llegaron a una:
+  ciudad,: 1 veces
+a una ciudad,:
+  donde: 1 veces
+una ciudad, donde:
+  el: 1 veces
+ciudad, donde el:
+  rey: 1 veces
+donde el rey:
+  que: 1 veces
+el rey que:
+  gobernaba: 1 veces
+rey que gobernaba:
+  tenÃ­a: 1 veces
+que gobernaba tenÃ­a:
+  una: 1 veces
+gobernaba tenÃ­a una:
+  hija: 1 veces
+tenÃ­a una hija:
+  que: 1 veces
+una hija que:
+  era: 1 veces
+hija que era:
+  tan: 1 veces
+que era tan:
+  seria: 1 veces
+era tan seria:
+  que: 1 veces
+tan seria que:
+  nadie: 1 veces
+seria que nadie:
+  podÃ­a: 1 veces
+que nadie podÃ­a:
+  hacerla: 1 veces
+nadie podÃ­a hacerla:
+  reÃ­r.: 1 veces
+podÃ­a hacerla reÃ­r.:
+  Para: 1 veces
+hacerla reÃ­r. Para:
+  ese: 1 veces
+reÃ­r. Para ese:
+  entonces: 1 veces
+Para ese entonces:
+  Ã©l: 1 veces
+ese entonces Ã©l:
+  habÃ­a: 1 veces
+entonces Ã©l habÃ­a:
+  firmado: 1 veces
+Ã©l habÃ­a firmado:
+  una: 1 veces
+habÃ­a firmado una:
+  ley: 1 veces
+firmado una ley:
+  diciendo: 1 veces
+una ley diciendo:
+  que: 1 veces
+ley diciendo que:
+  el: 1 veces
+diciendo que el:
+  hombre: 1 veces
+que el hombre:
+  que: 1 veces
+el hombre que:
+  fuera: 1 veces
+hombre que fuera:
+  capaz: 1 veces
+que fuera capaz:
+  de: 1 veces
+fuera capaz de:
+  hacerla: 1 veces
+capaz de hacerla:
+  reÃ­r: 1 veces
+de hacerla reÃ­r:
+  podÃ­a: 1 veces
+hacerla reÃ­r podÃ­a:
+  casarse: 1 veces
+reÃ­r podÃ­a casarse:
+  con: 1 veces
+podÃ­a casarse con:
+  ella.: 1 veces
+casarse con ella.:
+  Cuando: 1 veces
+con ella. Cuando:
+  TontÃ­n: 1 veces
+ella. Cuando TontÃ­n:
+  escuchÃ³: 1 veces
+Cuando TontÃ­n escuchÃ³:
+  esto,: 1 veces
+TontÃ­n escuchÃ³ esto,:
+  fue: 1 veces
+escuchÃ³ esto, fue:
+  con: 1 veces
+esto, fue con:
+  su: 1 veces
+fue con su:
+  ganso: 1 veces
+con su ganso:
+  y: 1 veces
+su ganso y:
+  todo: 1 veces
+ganso y todo:
+  su: 1 veces
+y todo su:
+  tren: 1 veces
+todo su tren:
+  de: 1 veces
+su tren de:
+  seguidores: 1 veces
+tren de seguidores:
+  ante: 1 veces
+de seguidores ante:
+  la: 1 veces
+seguidores ante la:
+  hija: 1 veces
+ante la hija:
+  del: 1 veces
+la hija del:
+  rey.: 1 veces
+hija del rey.:
+  Tan: 1 veces
+del rey. Tan:
+  pronto: 1 veces
+rey. Tan pronto:
+  ella: 1 veces
+Tan pronto ella:
+  vio: 1 veces
+pronto ella vio:
+  a: 1 veces
+ella vio a:
+  las: 1 veces
+vio a las:
+  siete: 1 veces
+a las siete:
+  personas: 1 veces
+las siete personas:
+  correr: 1 veces
+siete personas correr:
+  sin: 1 veces
+personas correr sin:
+  cesar,: 1 veces
+correr sin cesar,:
+  uno: 1 veces
+sin cesar, uno:
+  detrÃ¡s: 1 veces
+cesar, uno detrÃ¡s:
+  del: 1 veces
+uno detrÃ¡s del:
+  otro,: 1 veces
+detrÃ¡s del otro,:
+  de: 1 veces
+del otro, de:
+  aquÃ­: 1 veces
+otro, de aquÃ­:
+  para: 1 veces
+de aquÃ­ para:
+  allÃ¡,: 1 veces
+aquÃ­ para allÃ¡,:
+  comenzÃ³: 1 veces
+para allÃ¡, comenzÃ³:
+  a: 1 veces
+allÃ¡, comenzÃ³ a:
+  reÃ­r: 1 veces
+comenzÃ³ a reÃ­r:
+  a: 1 veces
+a reÃ­r a:
+  carcajadas.: 1 veces
+reÃ­r a carcajadas.:
+  TontÃ­n: 1 veces
+a carcajadas. TontÃ­n:
+  se: 1 veces
+carcajadas. TontÃ­n se:
+  ganÃ³: 1 veces
+TontÃ­n se ganÃ³:
+  el: 1 veces
+se ganÃ³ el:
+  corazÃ³n: 1 veces
+ganÃ³ el corazÃ³n:
+  de: 1 veces
+el corazÃ³n de:
+  la: 1 veces
+corazÃ³n de la:
+  princesa: 1 veces
+de la princesa:
+  al: 1 veces
+la princesa al:
+  haberle: 1 veces
+princesa al haberle:
+  devuelto: 1 veces
+al haberle devuelto:
+  su: 1 veces
+haberle devuelto su:
+  risa.: 1 veces
+devuelto su risa.:
+  Los: 1 veces
+su risa. Los:
+  dos: 1 veces
+risa. Los dos:
+  se: 1 veces
+Los dos se:
+  casaron: 1 veces
+dos se casaron:
+  y: 1 veces
+se casaron y:
+  fueron: 1 veces
+casaron y fueron:
+  felices: 1 veces
+y fueron felices:
+  para: 1 veces
+fueron felices para:
+  siempre.: 1 veces

@@ -1,0 +1,14 @@
+Ar S Ad -> Ar Ad S
+Ar S V -> Ar S V
+S V O -> S V O
+Ar S P S -> Ar S P S
+P V S -> P S V
+I S V -> I S V
+S V -> S V
+V S -> V S
+S Ad -> S Ad
+Ar S -> Ar S
+S P -> S P
+P S -> P S
+V O -> V O
+O V -> O V
